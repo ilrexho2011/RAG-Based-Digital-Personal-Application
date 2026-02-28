@@ -8,8 +8,8 @@ A RAG application that creates a queryable digital personal based on data export
 
 ```
 dkisselev-zz/
-├── persona_rag/                    # 🚀 Main Application
-│   ├── persona_app.py             # Gradio chat interface
+├── personal_rag/                    # 🚀 Main Application
+│   ├── personal_app.py             # Gradio chat interface
 │   ├── ingest.py                  # Data ingestion + vector DB creation
 │   ├── answer.py                  # RAG retrieval with configurable techniques
 │   ├── evaluate.py                # Evaluation, tuning, RAG comparison
