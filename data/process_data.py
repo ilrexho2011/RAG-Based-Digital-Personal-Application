@@ -15,7 +15,7 @@ from typing import List, Dict, Optional
 
 SCRIPT_DIR = Path(__file__).parent
 PARENT_DIR = SCRIPT_DIR.parent
-USER_NAME = "Dmitry Kisselev"  
+USER_NAME = "Ilirjan Rexho"  
 # Data source configurations
 FACEBOOK_CONFIG = {
     "base_dir": PARENT_DIR / "data_raw" / "facebook",
