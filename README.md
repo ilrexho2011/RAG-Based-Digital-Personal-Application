@@ -73,7 +73,7 @@ The evaluation framework uses `tests.jsonl` - a collection of 25 test questions 
 
 1. Load your processed data into an LLM (GPT-4)
 2. Prompting it to generate diverse test questions based on the content
-3. Saving in JSONL format with required fields: `question`, `keywords`, `reference_answer`, `category`
+3. Saving in JSON format with required fields: `question`, `keywords`, `reference_answer`, `category`
 
 *Note:* Questions could be generated manually as well without LLM participation
 
@@ -167,14 +167,14 @@ uv run python persona_app.py
 
 ```bash
 # Data Processing
-cd persona_rag/data
+cd personal_rag/data
 python process_data.py facebook          # Process Facebook only
 python process_data.py linkedin          # Process LinkedIn only
 python process_data.py both              # Process both
 
 # Application
 cd ..
-uv run python persona_app.py             # Launch app
+uv run python personal_app.py             # Launch app
 
 # Evaluation & Optimization
 uv run python evaluate.py --compare-rag  # Compare RAG techniques
