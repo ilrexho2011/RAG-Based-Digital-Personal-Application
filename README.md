@@ -73,7 +73,7 @@ The evaluation framework uses `tests.jsonl` - a collection of 25 test questions 
 
 1. Load your processed data into an LLM (GPT-4)
 2. Prompting it to generate diverse test questions based on the content
-3. Saving in JSON format with required fields: `question`, `keywords`, `reference_answer`, `category`
+3. Saving in JSONL format with required fields: `question`, `keywords`, `reference_answer`, `category`
 
 *Note:* Questions could be generated manually as well without LLM participation
 
