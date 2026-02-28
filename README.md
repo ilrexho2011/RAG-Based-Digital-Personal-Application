@@ -7,7 +7,7 @@ A RAG application that creates a queryable digital personal based on data export
 ## 📁 Project Structure
 
 ```
-dkisselev-zz/
+ilrexho/
 ├── personal_rag/                    # 🚀 Main Application
 │   ├── personal_app.py             # Gradio chat interface
 │   ├── ingest.py                  # Data ingestion + vector DB creation
